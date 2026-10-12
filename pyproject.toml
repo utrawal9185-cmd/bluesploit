@@ -44,8 +44,8 @@ classifiers = [
 # on the maintainer's dev machine.
 dependencies = [
     # Cross-platform core (actually imported by modules/ or core/)
-    "bleak==3.0.1",          # 55 imports across modules/
-    "scapy==2.7.0",
+    "bleak==3.0.2",          # 55 imports across modules/
+    "scapy==2.8.0",
     "cryptography==47.0.0",
     "pyserial==3.5",
     # Console UI helpers (declared for future use; not yet imported)
@@ -68,7 +68,7 @@ classic = [
 full = [
     'bluepy==1.3.0;    sys_platform == "linux"',
     'btlejack==2.1.1;  sys_platform == "linux"',
-    "scapy==2.7.0",
+    "scapy==2.8.0",
     "rich==15.0.0",
     "cmd2==3.5.1",
 ]

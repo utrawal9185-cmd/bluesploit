@@ -26,7 +26,7 @@
 # is pyproject.toml; bump there first, then mirror here.
 
 # Core BLE
-bleak==3.0.1                   # BLE scanning + GATT (cross-platform)
+bleak==3.0.2                   # BLE scanning + GATT (cross-platform)
 
 # Bluetooth Classic (BR/EDR)
 # pybluez2 0.46 sdist on PyPI is broken (missing btmodule.h header).
@@ -37,7 +37,7 @@ bleak==3.0.1                   # BLE scanning + GATT (cross-platform)
 #   pip install git+https://github.com/pybluez/pybluez.git#egg=pybluez
 
 # Packet Crafting & Crypto
-scapy==2.7.0                   # BT/BLE frame construction + injection
+scapy==2.8.0                   # BT/BLE frame construction + injection
 cryptography==47.0.0           # Key derivation (E0/E3), AES analysis
 
 # BLE Low-Level
